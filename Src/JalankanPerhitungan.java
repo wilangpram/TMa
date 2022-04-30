@@ -11,10 +11,12 @@ public class JalankanPerhitungan {
         System.out.println();
 
         int hasiltambah = s.HitungTambah(4, 6);
+        System.out.println("Hasil Tambah");
         System.out.println(hasiltambah);
         System.out.println();
 
         int hasilkali = s.HitungKali(4, 6);
+        System.out.println("Hasil Kali");
         System.out.println(hasilkali);
     }
 }

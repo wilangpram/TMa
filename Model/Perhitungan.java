@@ -6,12 +6,11 @@ public class Perhitungan implements ContohInterface{
         private int a;
         private int b;
         private int hasil;
-    
-    public Perhitungan (int _a, int _b, int _hasil){
+
+        public Perhitungan (int _a, int _b, int _hasil){
         this.a = _a;
         this.b = _b;
         _hasil = 0;
-        this.hasil = _hasil;
         PrintJudulClass("Print Judul Dalam Class Perhitungan");
         
     }
